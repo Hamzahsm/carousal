@@ -7,6 +7,49 @@
     <title>carousal</title>
 </head>
 <body>
-    <h1>hello world!</h1>
+    <!-- your slider parent start here -->
+    <section class="slider">
+        <div class="slides">
+            <!-- your radio very useful when the user clicked it. if you want more or less the slide, you can add it or delete it-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- your radio end here -->
+
+            <!-- you images start here -->
+            <div class="slide first">
+                <img src="" alt="">
+            </div>
+            <div class="slide">
+                <img src="" alt="">
+            </div>
+            <div class="slide">
+                <img src="" alt="">
+            </div>
+            <div class="slide">
+                <img src="" alt="">
+            </div>
+            <!-- your images end here -->
+
+            <!-- your auto-navigation start here, we will manipulate this o -->
+            <div class="auto-navigation">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- your auto-navigation end here -->
+        </div>
+            <!-- your manual-navigation start here, remember that this using label elements, it will maching with our radio! -->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- your manual-navigation end here -->
+    </section>
+    <!-- yor slider parent end here -->
 </body>
 </html>
