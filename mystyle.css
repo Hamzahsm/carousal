@@ -74,4 +74,44 @@
 #radio4:checked ~ .first {
     margin-left: -60%; 
 }
-/* hell yah! we done for manual navigation!! */
+/* hell yah! we done for manual navigation!! */ 
+
+/* let's create auto-navigation!! the design is same with manual-navigation but the most important thing is we play with the radio */
+
+.auto-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 600px; 
+    width: 100%; 
+}
+
+.auto-navigation div {
+    border: 2px solid blue;
+    padding: 7px; 
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.auto-navigation div:not(:last-child) {
+    margin-right: 40px; 
+}
+
+/* here the design radio for auto navigation */
+#radio1:checked ~ .auto-navigation .auto-btn {
+    background-color: blue;
+}
+
+#radio2:checked ~ .auto-navigation .auto-btn {
+    background-color: blue;
+}
+
+#radio3:checked ~ .auto-navigation .auto-btn {
+    background-color: blue;
+}
+
+#radio4:checked ~ .auto-navigation .auto-btn {
+    background-color: blue;
+} 
