@@ -100,19 +100,19 @@
 }
 
 /* here the design radio for auto navigation */
-#radio1:checked ~ .auto-navigation .auto-btn {
+#radio1:checked ~ .auto-navigation .auto-btn1 {
     background-color: blue;
 }
 
-#radio2:checked ~ .auto-navigation .auto-btn {
+#radio2:checked ~ .auto-navigation .auto-btn2 {
     background-color: blue;
 }
 
-#radio3:checked ~ .auto-navigation .auto-btn {
+#radio3:checked ~ .auto-navigation .auto-btn3 {
     background-color: blue;
 }
 
-#radio4:checked ~ .auto-navigation .auto-btn {
+#radio4:checked ~ .auto-navigation .auto-btn4 {
     background-color: blue;
 } 
 
